@@ -15,7 +15,6 @@
         <link href="https://fonts.googleapis.com/css2?family=Newsreader:wght@300&family=Playfair+Display:ital,wght@1,500&display=swap" rel="stylesheet">
     </head>
     <body>
-        <center>
         <div class="head_div">
         <h3>Case Study <img src ="case_study_logo.png" id="logo"></h3>
         </div>
@@ -23,23 +22,23 @@
             <h4>1. Test Image</h4>
             <img src="Image1.jpg" class="image-responsive image"> <br>
             <label>Output on Wolfram Project - <label class="wolfram"></label> Water Bottle </label> <br>
-            <label>Output on MobileNet Model - <label id="mobileNet_1"></label> </label>
+            <label>Output on MobileNet Model - <label id="mobileNet_1"></label> Home Theater </label>
             <div class="result_div">
-                <label>Results</label>
-                <hr><hr>
-                <label id="answer1"></label>
+                <label>Mini Result</label>
+                <hr>
+                <label>Wolfram Project is more accurate.</label>
             </div>
         </div>
-        <br> <br>
+        <br> <br> 
         <div class="col-sm-6 col-xs-12 object">
             <h4>2. Test Image</h4>
             <img src="Image2.jpg" class="image-responsive image"> <br>
             <label>Output on Wolfram Project - <label class="wolfram"></label> Pen </label> <br>
-            <label>Output on MobileNet Model - <label id="mobileNet_2"></label> </label>
+            <label>Output on MobileNet Model - <label id="mobileNet_2"></label> Pencil Eraser </label>
             <div class="result_div">
-                <label>Results</label>
-                <hr><hr>
-                <label id="answer2"></label>
+                <label>Mini Result</label>
+                <hr>
+                <label>Both are inaccurate.</label>
             </div>
         </div>
         <br> <br>
@@ -47,11 +46,11 @@
             <h4>3. Test Image</h4>
             <img src="Image3.jpg" class="image-responsive image"> <br>
             <label>Output on Wolfram Project - <label class="wolfram"></label> Pillow </label> <br>
-            <label>Output on MobileNet Model - <label id="mobileNet_3"></label> </label>
+            <label>Output on MobileNet Model - <label id="mobileNet_3"></label> Pillow </label>
             <div class="result_div">
-                <label>Results</label>
-                <hr><hr>
-                <label id="answer3"></label>
+                <label>Mini Result</label>
+                <hr>
+                <label>Both are accurate.</label>
             </div>
         </div>
         <br> <br>
@@ -59,11 +58,11 @@
             <h4>4. Test Image</h4>
             <img src="Image4.jpg" class="image-responsive image"> <br>
             <label>Output on Wolfram Project - <label class="wolfram"></label> Tool </label> <br>
-            <label>Output on MobileNet Model - <label id="mobileNet_4"></label> </label>
+            <label>Output on MobileNet Model - <label id="mobileNet_4"></label> Pencil </label>
             <div class="result_div">
-                <label>Results</label>
-                <hr><hr>
-                <label id="answer4"></label>
+                <label>Mini Result</label>
+                <hr>
+                <label>MobileNet Model is more accurate.</label>
             </div>
         </div>
         <br> <br>
@@ -71,12 +70,19 @@
             <h4>5. Test Image</h4>
             <img src="Image5.jpg" class="image-responsive image"> <br>
             <label>Output on Wolfram Project - <label class="wolfram"></label> Luggage and bags </label> <br>
-            <label>Output on MobileNet Model - <label id="mobileNet_5"></label> </label>
+            <label>Output on MobileNet Model - <label id="mobileNet_5"></label> Backpack </label>
             <div class="result_div">
-                <label>Results</label>
-                <hr><hr>
-                <label id="answer5"></label>
+                <label>Mini Result</label>
+                <hr>
+                <label>MobileNet Model is more accurate.</label>
             </div>
+        </div>
+        <center>
+        <div id="conclusion">
+            <h2>Conclusion</h2>
+            <div id="line"></div>
+            <h4>I have tested 5 objects.Wolfram Project has identified 2 objects and MobileNet Model
+                 has identified 3 objects.Hence,MobileNet Model is more accurate.</h4>
         </div>
         </center>
     </body>
