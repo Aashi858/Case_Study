@@ -1,0 +1,34 @@
+body{
+    background: linear-gradient(plum 0%,powderblue 100%);
+}
+#logo{
+    width: 100px;
+    height: 100px;
+}
+.head_div h3{
+    background-color :white;
+    margin: 10px;
+    box-shadow: 10px 10px 5px whitesmoke;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.object{
+    margin: 10px;
+    background:skyblue;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-family: 'Newsreader', serif;
+    box-shadow: 10px 10px 5px deepskyblue;
+}
+.result_div{
+    padding-top: 5px;
+    background: rgb(225, 161, 238);
+    border-radius: 10px;
+}
+.object img{
+    width: 200px;
+    border-radius: 10px;
+    border: 5px ridge whitesmoke;
+    margin-bottom: 15px;
+}
